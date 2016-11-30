@@ -1,0 +1,77 @@
+p{
+	font-size:20px;
+}
+.copyright
+{
+	background-color:black;
+	text-align:center;
+	color:#fff;
+	min-height:50px;
+	
+}
+.info{
+	min-height:200px;
+}
+
+.menu{min-height:1000px;}
+.jumbotron-special
+{
+	background-image:url('../foodm2.jpg');
+	background-attachment:fixed;
+    min-height:250px;
+    margin-bottom:0px;
+	text-align:center;
+}
+.big{
+	font-size:50px;
+}
+#tandoori{
+	min-height:600px;
+}
+#biryani{
+	min-height:600px;
+}
+#sun{
+	min-height:600px;
+}
+#chef{
+	height:400px;
+	width:400px;
+	border-radius: 350px;
+    
+    padding: 20px; 
+}
+.contact{
+	min-height:600px;
+	
+}
+.color{
+	min-height:150px;
+}
+.jumbotron1
+{
+	background-image:url('../food2.jpg');
+	background-attachment:fixed;
+    min-height:500px;
+    margin-bottom:0px;
+	text-align:center;
+}
+.jumbotron2
+{
+	background-image:url('../back.jpg');
+	background-attachment:fixed;
+    min-height:500px;
+    margin-bottom:0px;
+	text-align:center;
+}
+.jumbotron3
+{
+	background-image:url('../food4.jpg');
+	background-attachment:fixed;
+    min-height:500px;
+    margin-bottom:0px;
+	text-align:center;
+}
+h1{
+	font-size:50px;
+}

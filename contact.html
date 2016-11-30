@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ContactUs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body background="rest.png">
+		
+		    <nav class="navbar navbar-inverse " role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Nilam's Kitchen</a>
+            </div>
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="About.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav>
+		
+			
+			
+		<div class="contact">	
+				<section id="contactUs" class="contact-parlex" class="contactinfo">
+		  <div class="parlex-back">
+			<div class="container">
+			  <div class="row">
+				<div class="heading text-center"> 
+				  
+				  <h2>Contact Us</h2>
+				  <p>We would love to hear feedback from our customers</p>
+				</div>
+			  </div>
+			  <div class="row mrgn30">
+			   
+				  <div class="col-sm-7">
+					<div class="form-group">
+					  <label for="name">Name</label>
+					  <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+					</div>
+					<div class="form-group">
+					  <label for="email">Email</label>
+					  <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+					</div>
+					<div class="form-group">
+					  <label for="comments">Comments</label>
+					  <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+					  <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+					</div>
+					<div class="result"></div>
+				  </div>
+				 
+				 <aside class="col-md-5">
+					
+					<h3>Contact Information</h3>
+
+					<p>Deleivery time may vary with the location.</p>
+
+					<p>
+					Nilam's Kitchen<br />
+					Finglas-12 <br />
+					Dublin, Ireland
+					</p>
+
+					<p>
+					Phone: 0 123 456 789 0 <br />
+					Email: info@nilamskitchen.com
+					</p><br />
+
+					
+
+				 </aside>
+				 
+				</div>
+				</div>
+				</div>
+				
+				</section>
+		</div>
+		
+			<center>
+			<div class="container">
+		 <p>We undertake catering orders for parties and other ocassions too</p>
+		 </div>
+		 </center>
+		<div class="copyright">
+			<div class="container">
+				<footer>&copy; Indian Spice House</br><a href= "#">Back to top</a></footer>
+			</div>
+		</div>
+			
+		
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+		<script>$(function() {
+		  $('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html, body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});
+		var form = document.getElementById('contactUs');
+		form.onsubmit = function(event){
+		event.preventdefault();
+		console.log(form.Name.value);
+		form.reset();
+		}
+	</script>
+	</body>
+</html>	

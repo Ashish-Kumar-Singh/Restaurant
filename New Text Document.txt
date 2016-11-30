@@ -1,0 +1,14 @@
+Client Requirements
+
+A 
+Website for ordering food online.
+Customers can  also order our food through third party websites such as deliveroo or justeat.
+Should have online payment gateway.
+Customised order(So that we can explain how spicy the food is and has so and so allergiations)
+Review page.
+Website for showcasing our chef's recipes and a newsletter so that our customers never miss out our the chef's recipes,
+Location of our place.
+Space for ads.
+Social medias linked.
+
+Make it look Indian
