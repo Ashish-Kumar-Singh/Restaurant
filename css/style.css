@@ -148,13 +148,27 @@ p{
 {
 
 	border-radius: 100px;
+
     
  }
  #lambKorma{
 	 min-height:500px;
+	 	background-color:#FFAB91;
  }
  #tikka{
 	 min-height:500px;
+	 background-color:#FFCC80;
  }
-	
-	
+#biryani{
+	min-height:500px;
+	background-color:#FFA07A;
+}
+#popular{
+	background-color:#9CCC65   ; 
+
+}
+.jumbotron9
+{
+	background-image:url('../background1.jpg');
+	margin-bottom:0px;
+}
