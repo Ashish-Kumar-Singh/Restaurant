@@ -24,6 +24,9 @@
            
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+				<li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="About.html">Recipes</a>
                     </li>
@@ -40,42 +43,93 @@
         
     </nav>
 
-
-			 
-	
-		<div class="info">
-		<div class="container">
-			<div class="row">
-			<div class="col-md-6 col-sm-12">
-			<img id="chef" src="chef.jpg" class="img-responsive">
-			</div>
-					<div class="col-md-6 col-sm-12" >
-					<h1>About the Chef</h1>
-					<p>Our Executive Chef Nilam is the culinary heart and soul of Nilam,s Kitchen.Born and raised in India , it was there
-						that chef Nilam developed her passion for cooking, spending countless hours in the kitchen  with her grandmother
-						and learning the techniques and recipes. She is a well renowned chef in India and has ccurrently opened a new 
-						food chain takeaway in Dublin.</p>
-					</div>
-					
-			</div>
 				
+		
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+			  <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				
+			  </ol>
+
+			  
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  	<div class="jumbotron jumbotron6" id="Home">
+						<div class="container">
+						<center><h1>Chef's Popular Recipes</h1></center>
+							<div class="row">
+								<div class="col-md-6 col-sm-12">
+									<img src="biryani.jpg" class="img-responsive" id="biryaniimg">
+								</div>
+								<div class="col-md-6 col-sm-12">
+									<h2>Chicken Biryani</h2>
+								<button><a href="#biryani">Get the Recipe</a></button>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				  <div class="carousel-caption">
+				
+				  </div>
+				</div>
+
+				<div class="item">
+				 <div class="jumbotron jumbotron7" id="Home">
+						<div class="container">
+						<center><h1>Chef's Popular Recipes</h1></center>
+							<div class="row">
+								<div class="col-md-6 col-sm-12">
+									<img src="chictik.jpg" class="img-responsive" id="tikkaimg">
+								</div>
+								<div class="col-md-6 col-sm-12">
+									<h2>Chicken Tikka</h2>
+								<button><a href="#tikka">Get the Recipe</a></button>
+								</div>
+							</div>		
+						</div>
+					</div>
+				  <div class="carousel-caption">
+	
 					
-		</div>
-		</div>
-		</br>
-		</br>
-		</br>
-		<div class="rec">
-			<div class="container">
-				<center><h1>Recipes</h1></center>
-				<h2>Chef's Choices</h2>
-				</br>
+				  </div>
+				</div>
+
+				<div class="item">
+				 <div class="jumbotron jumbotron8" id="Home">
+						<div class="container">
+						<center><h1>Chef's Popular Recipes</h1></center>
+							<div class="row">
+								<div class="col-md-6 col-sm-12">
+									<img src="lamb.jpg" class="img-responsive" id="lambimg">
+								</div>
+								<div class="col-md-6 col-sm-12">
+								<h2>Lamb Korma</h2>
+								<button><a href="#lambKorma">Get the Recipe</a></button>
+								</div>
+							</div>
+						</div>
+				</div>
+							
+						</div>
+					</div>
+				  <div class="carousel-caption">
 			
-				<h3>Chicken Biryani</h3>
-				<img src="biryani.jpg" class="img-responsive">
-				</br>
-				</br>
-				<div class="row">
+				  </div>
+				</div>
+				
+
+			
+			 
+			
+			<div id="biryani">
+			<div class="container">
+				<center><h2>Recipes</h2></center>
+							<h3>Chicken Biryani</h3>
+							<div class="row">
 					<div class="col-md-6 col-sm-12">
 						<h4>Ingridients</h4>
 						</br>
@@ -92,8 +146,9 @@
 						<li>4 tablespoons curry paste</li>
 						<li>85 g raisins</li>
 						<li>850 ml chicken stock</li>
-						<li>coriander, chopped</li>
-						<li>sliced almonds</li>
+						<li>Corriander leaves</li>
+						
+						
 						</ul>
 					</div>
 					<div class="col-md-6 col-sm-12">
@@ -103,18 +158,18 @@
 						<p>Soak the rice in warm water, then wash in cold until the water runs clear.
 						Heat the butter in a saucepan and cook the onions with the bay leaf and other whole spices for 10 minutes.
 						 Sprinkle in the turmeric, then add chicken and curry paste; cook till aromatic.
-						Stir the rice into the pan with the raisins, then pour over the stock.
-						 Place a tight fitting lid on the pan and bring to a hard boil, then lower the heat to a minimum;
-						 cook the rice for another 5 minutes. Turn of the heat & leave for 10 minutes. Stir well, mixing through half the coriander.
+						Stir the rice into the pan with the raisins, then pour over the stock.Let the lid on until it simmers.
 						To serve scatter over the rest of the coriander and the almonds.
 						</p>
 					</div>
 				</div>
-				<h3>Chicken tikka</h3>
-				<img src="chictik.jpg" class="img-responsive">
-				</br>
-				</br>
-				<div class="row">
+			</div>
+			</div>
+			 <div id="tikka">
+				<div class="container">
+				
+							<h3>Chicken tikka</h3>
+							<div class="row">
 					<div class="col-md-6 col-sm-12">
 						<h4>Ingridients</h4>
 						</br>
@@ -145,54 +200,64 @@
 													</p>
 					</div>
 				</div>
-				<h3>Lamb Korma</h3>
-				<img src="lamb.jpg" class="img-responsive">
-				</br>
-				</br>
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<h4>Ingridients</h4>
-						</br>
-						</br>
-						<ul>
-						<li>1 kg boneless lamb, cut into 3cm cubes</li>
-						<li>1 medium onion, chopped</li>
-						<li>2 teaspoons fresh ginger, grated</li>
-						<li>3 garlic cloves, roughly chopped</li>
-						<li>1 tablespoon coriander seed</li>
-						<li>2 teaspoons ground cumin</li>
-						<li>1 teaspoon cardamom pod</li>
-						<li>1⁄2 teaspoon salt</li>
-						<li>1 teaspoon chili flakes, depending on taste (less (or more)</li>
-						<li>2 tablespoons ghee</li>
-						<li>1 medium onion, extra, sliced</li>
-						<li>2 tablespoons tomato paste</li>
-						<li>1⁄2 cup yoghurt</li>
-						</ul>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<h4>Directions</h4>
-						</br>
-						</br>
-						<p>Put the onion, ginger, garlic, coriander seeds, cumin, cardamom, salt and chili flakes into a food processor and process until a smooth paste forms (or use a mortar and pestle).
-							Add the spice mix to the lamb and stir well to coat. Set aside for 1 hour.
-							Heat ghee in a large pan or wok. Add the extra onions and cook, stirring over moderate heat until the onions soften.
-							Add the lamb and cook for 8 to 10 minutes, stirring constantly,until the lamb cubes are browned all over.
-							Add the tomato paste and 2 tablespoons of the yoghurt and stir until combined.
-							Simmer uncovered until the liquid is absorbed.
-							Add the remaining yoghurt, 2 tablespoons at a time, stirring between each addition until the liquid is absorbed.
-							Cover the pan and simmer over a low heat for 30 minutes, stirring occasionally.
-							Serve with rice, raitas and relishes.
-						</p>
-					</div>
 				</div>
 			</div>
-		</div>
-		</br>
-			</br>
-			</br>
+			<div id="lambKorma">
+				<div class="container">
+				
+							<h3>Lamb Korma</h3>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+							<h4>Ingridients</h4>
+							</br>
+							</br>
+							<ul>
+							<li>1 kg boneless lamb, cut into 3cm cubes</li>
+							<li>1 medium onion, chopped</li>
+							<li>2 teaspoons fresh ginger, grated</li>
+							<li>3 garlic cloves, roughly chopped</li>
+							<li>1 tablespoon coriander seed</li>
+							<li>2 teaspoons ground cumin</li>
+							<li>1 teaspoon cardamom pod</li>
+							<li>1⁄2 teaspoon salt</li>
+							<li>1 teaspoon chili flakes, depending on taste (less (or more)</li>
+							<li>2 tablespoons ghee</li>
+						
+							</ul>
+							</div>
+							<div class="col-md-6 col-sm-12">
+							<h4>Directions</h4>
+							</br>
+							</br>
+							<p>Put the onion, ginger, garlic, coriander seeds, cumin, cardamom,
+							salt and chili flakes into a food processor and process until a smooth paste forms .
+							Add the spice mix to the lamb and stir well to coat.
+							Heat ghee in a large pan or wok. Add the extra onions and cook, stirring over moderate heat until the onions soften.
+							Add the lamb and cook for 8 to 10 minutes, stirring constantly,until the lamb cubes are browned all over.Serve with rice, raitas and relishes.
+							</p>
+							</div>
+						</div>
+				</div>
+			</div>
 		
-		<center><form class="subscribe themebgpale" action="/subscribe" method="POST">
+			<div class="item">
+				 <div class="jumbotron jumbotron5" id="Home">
+						<div class="container">
+							<div class="row">
+							<div class="col-md-6 col-sm-12">
+							<img id="chef" src="chef.jpg" class="img-responsive">
+							</div>
+									<div class="col-md-6 col-sm-12" >
+									<h1>About the Chef</h1>
+									</br>
+									<p>Our Executive Chef Nilam is the culinary heart and soul of Nilam,s Kitchen.Born and raised in India , it was there
+										that chef Nilam developed her passion for cooking, spending countless hours in the kitchen  with her grandmother
+										and learning the techniques and recipes. She is a well renowned chef in India and has ccurrently opened a new 
+										food chain takeaway in Dublin.</p>
+									</div>
+									
+							</div>
+							<center><form class="subscribe themebgpale" action="/subscribe" method="POST">
 			  <input type="hidden" name="_csrf" value="gPnp8e59JpYN8sbioqufDUAbdUcecOST8e6ihJmBSKY=" />
 			  <input type="email" placeholder="Enter your e-mail address" class="email" name="email" id="email" value="" required />
 			  <button class="awesome" type="submit" target="_blank">Subscribe now &raquo;</button>
@@ -200,10 +265,18 @@
 				<div class="count">To get more such incredible recipes,subscribe to our newsletter.</div>
 			  
 			</form>	</center>
+				
+					
+						</div>
+				</div>
+				 
+				</div>
+		
+		
 			
 		<div class="copyright">
 			<div class="container">
-				<footer>&copy; Indian Spice House</br><a href= "#">Back to top</a></footer>
+				<footer>&copy; Nilam's Kitchen</br><a href= "#">Back to top</a></footer>
 			</div>
 		</div>
 			

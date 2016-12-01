@@ -72,6 +72,89 @@ p{
     margin-bottom:0px;
 	text-align:center;
 }
-h1{
-	font-size:50px;
+.big{
+	font-size:70px;
 }
+.navbar { margin-bottom:0px ; }
+.carousel-caption { margin-top:0px; }
+.jumbotron4
+{
+	background-image:url('../foodm3.jpg');
+	background-attachment:fixed;
+    min-height:300px;
+    margin-bottom:0px;
+	text-align:center;
+	color:white;
+}
+.jumbotron5
+{
+	background-image:url('../download.jpg');
+	background-attachment:fixed;
+    min-height:300px;
+    margin-bottom:0px;
+	text-align:center;
+	color:white;
+}
+.comment{
+	min-height:600px;
+}
+.address{
+	min-height:500px;
+}
+.fa{
+		padding:15px;
+		font-size:50px;
+	}
+	.jumbotron6
+{
+	background-image:url('../background.jpg');
+	background-attachment:fixed;
+    min-height:550px;
+    margin-bottom:0px;
+	color:black;
+	text-align:center;
+}.jumbotron7
+{
+	background-image:url('../background.jpg');
+	background-attachment:fixed;
+    min-height:550px;
+    margin-bottom:0px;
+	color:black;
+		text-align:center;
+}.jumbotron8
+{
+	background-image:url('../background.jpg');
+	background-attachment:fixed;
+    min-height:550px;
+    margin-bottom:0px;
+	color:black;
+	text-align:center;
+	}
+
+#biryaniimg
+	{
+
+	border-radius: 100px;
+
+}
+#tikkaimg
+{
+
+	border-radius: 100px;
+    
+
+}
+#lambimg
+{
+
+	border-radius: 100px;
+    
+ }
+ #lambKorma{
+	 min-height:500px;
+ }
+ #tikka{
+	 min-height:500px;
+ }
+	
+	
