@@ -96,10 +96,10 @@ p{
 	color:white;
 }
 .comment{
-	min-height:600px;
+	min-height:500px;
 }
 .address{
-	min-height:500px;
+	min-height:400px;
 }
 .fa{
 		padding:15px;
@@ -129,6 +129,7 @@ p{
     margin-bottom:0px;
 	color:black;
 	text-align:center;
+	
 	}
 
 #biryaniimg
@@ -172,3 +173,11 @@ p{
 	background-image:url('../background1.jpg');
 	margin-bottom:0px;
 }
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+ .subscribe{
+	 color:black;
+ }
