@@ -265,10 +265,10 @@
 									</div>
 									
 							</div>
-							<center><form class="subscribe themebgpale" action="/subscribe" method="POST">
+							<center><form class="subscribe themebgpale" >
 			  <input type="hidden" name="_csrf" value="text" />
-			  <input type="email" placeholder="Enter your e-mail address" class="email" name="email" id="email" value="" required />
-			  <button class="awesome" type="submit" >Subscribe now &raquo;</button>
+			  <input type="email" class="email" name="email" id="email" value="" required />
+			  <button id="myButton">Subscribe now &raquo;</button>
 			  
 				<div class="count">To get more such incredible recipes,subscribe to our newsletter.</div>
 			  
@@ -307,5 +307,10 @@
 		  });
 		});
 	</script>
+	<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "thanks.html";
+    };
+</script>
 	</body>
 </html>	
