@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" type="image/png" href="nk.png">
 	</head>
 	<body background="weather.png">
 		
@@ -265,22 +266,24 @@
 									</div>
 									
 							</div>
-							<center><form class="subscribe themebgpale" >
+							<center><div class="count">To get more such incredible recipes,subscribe to our newsletter.</div>
+							<form class="subscribe themebgpale" >
 			  <input type="hidden" name="_csrf" value="text" />
 			  <input type="email" class="email" name="email" id="email" value="" required />
 			 
 			  
-				<div class="count">To get more such incredible recipes,subscribe to our newsletter.</div>
+			
 			  
 			</form>
 				 <button id="myButton" class="subscribe">Subscribe now &raquo;</button>
+				 	
 						</center>
 						</div>
 				</div>
 				 
 				</div>
 		
-		
+		<a href="#" class="back-to-top">Back to Top</a>
 			
 		<div class="copyright">
 			<div class="container">
@@ -311,6 +314,21 @@
     document.getElementById("myButton").onclick = function () {
         location.href = "thanks.html";
     };
+	var amountScrolled = 300;
+
+			$(window).scroll(function() {
+				if ( $(window).scrollTop() > amountScrolled ) {
+					$('a.back-to-top').fadeIn('slow');
+				} else {
+					$('a.back-to-top').fadeOut('slow');
+				}
+			});
+			$('a.back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
 </script>
 	</body>
 </html>	
